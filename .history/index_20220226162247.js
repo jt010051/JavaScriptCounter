@@ -18,7 +18,7 @@ function increment(){
 
     countEl.textContent = count;  
    // document.getElementById("count-el").innerText=5;
-
+count=0;
 
      
 }
@@ -26,8 +26,6 @@ function save(){
 
     let cDash = count + " - ";
 saveEl.textContent += cDash;
-countEl.textContent=0;
-count =0;
 }
 
 
